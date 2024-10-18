@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet" />
+    <title>Rock Paper Scissors</title>
+  </head>
+  <body>
+    <div class="bord">
+      <p id="title-game">
+        Rock <br />Paper<br />
+        Scissors
+      </p>
+      <div class="score-bord">
+        <p id="score-text">SCORE</p>
+        <p id="score-number">0</p>
+      </div>
+    </div>
+    <div class="main">
+      <div class="main-content">
+        <img src="images\bg-triangle.svg" alt="" id="triangle" />
+        <!---------------------------------------------------------------------------------------------- -->
+        <div class="rock-paper-scissors" id="rock-main-container">
+          <div class="rock-white-circle">
+            <img src="images\icon-rock.svg" alt="" id="rock-image" />
+          </div>
+        </div>
+
+        <div class="rock-paper-scissors" id="paper-main-container">
+          <div class="paper-white-circle">
+            <img src="images\icon-paper.svg" alt="" id="paper-image" />
+          </div>
+        </div>
+
+        <div class="rock-paper-scissors" id="scissors-main-container">
+          <div class="scissors-white-circle">
+            <img src="images\icon-scissors.svg" alt="" id="rock-image" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="rules">Rules</div>
+    <div class="rules-window">
+      <p id="rules-window-text">RULES</p>
+      <img src="images\icon-close.svg" alt="" id="logo-close-rules" />
+      <img src="images\image-rules.svg" alt="" id="rules-image" />
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
